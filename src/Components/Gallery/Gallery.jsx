@@ -9,8 +9,6 @@ import o1 from '../../assets/o1.png'
 import d1 from '../../assets/d1.png'
 import o2 from '../../assets/o2.png'
 import d2 from '../../assets/d2.png'
-import o3 from '../../assets/o3.png'
-import d3 from '../../assets/d3.png'
 import o4 from '../../assets/o4.png'
 import d4 from '../../assets/d4.png'
 import o5 from '../../assets/o5.png'
@@ -94,10 +92,7 @@ export default function Gallery() {
         frontImage={o17}
         backImage={d17}
       />
-       <Flipcard 
-        frontImage={o3}
-        backImage={d3}
-      />
+    
        <Flipcard 
         frontImage={o4}
         backImage={d4}

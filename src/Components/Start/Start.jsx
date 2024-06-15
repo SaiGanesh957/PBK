@@ -4,7 +4,6 @@ import PBKlogo from '../../assets/pbklogo.jpg'
 import Boy from '../../assets/boy.png'
 import art from '../../assets/art.jpg'
 import baby from '../../assets/baby.jpg'
-import Gallery from '../Gallery/Gallery'
 import bk from '../../assets/balakrishna.jpg'
 import {Link} from "react-router-dom";
 import { useForm } from "react-hook-form";
@@ -20,7 +19,6 @@ import g from '../../assets/g.png'
 import h from '../../assets/h.png'
 import i from '../../assets/i.png'
 import j from '../../assets/j.png'
-import k from '../../assets/k.png'
 import l from '../../assets/l.png'
 
 
@@ -31,7 +29,7 @@ export default function Start() {
     const [isSuccess, setIsSuccess] = useState(false);
     const [result, setResult] = useState(null);
   
-    const accessKey = "800016f6-e3aa-4094-9d55-2b54acbda003";
+    const accessKey = "4cb9af38-bfe7-4e14-9752-92b1266bd049";
   
     const { submit: onSubmit } = useWeb3Forms({
       access_key: accessKey,
@@ -136,7 +134,7 @@ export default function Start() {
     <div>
       <img
         class="h-auto max-w-full rounded-lg object-cover object-center"
-        src={k}
+        src={i}
         alt="gallery-photo"
       />
     </div>
@@ -356,7 +354,7 @@ export default function Start() {
                         </svg>
 
                         <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                            Kakinada K.I.T.E & N.B Padu
+                        KAKINADA INSTITUTE OF ENGINEERING AND TECHNOLOGY & Martur
                         </span>
                     </p>
 
@@ -373,7 +371,7 @@ export default function Start() {
                             <path stroke-linecap="round" stroke-linejoin="round"  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
 
-                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">balu47479@gmail.com</span>
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">balakrishnaarts47479@gmail.com</span>
                     </p>
                 </div>
 
