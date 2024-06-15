@@ -77,8 +77,8 @@ export default function Start() {
                         <h1 className="text-sm text-indigo-600 font-medium">
                             Over 50+ successful deals
                         </h1>
-                        <h1 className="text-4xl text-gray-800 font-extrabold md:text-5xl">
-                            Hello Iam Bala Krishna Ponnaganti
+                        <h1 className="text-4xl text-gray-800 font-extrabold md:text-5xl  pb-5">
+                            Hello , Iam Bala Krishna Ponnaganti
                         </h1>
                         <p>
                         Welcome to Balakrishna Ponnaganti's portfolio, showcasing his unique and captivating artwork. Discover his creative journey through a variety of stunning drawings and paintings.
@@ -353,7 +353,7 @@ export default function Start() {
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
 
-                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400 text-wrap">
                         KAKINADA INSTITUTE OF ENGINEERING AND TECHNOLOGY & Martur
                         </span>
                     </p>
